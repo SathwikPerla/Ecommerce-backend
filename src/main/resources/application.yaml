@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Sathwik
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecommerce_db
+
+logging:
+  level:
+    root: INFO
